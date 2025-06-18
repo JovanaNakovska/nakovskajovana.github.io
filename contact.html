@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашна работа</title>
+    <style>
+        nav{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background: #53732f;
+            height: 50px;
+        }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a{
+            padding: 8px;
+            margin: 8px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap:30px;
+            color: lightpink;
+        }
+        nav ul li:first-child{
+            margin-left: -20px;
+        }
+        nav ul li a:hover{
+            color: #658345;
+            background: lightpink;
+            padding: 8px;
+            text-decoration: underline;
+            border-radius: 5px;
+        }
+        .edinstvena{
+            padding-top:20px;
+            background-color: #658345;
+            background-image: url("logo-transparent1.png");
+
+            width: 100%;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        body{
+            background-color:bisque;
+            padding: 10px;
+        }
+        .ukras{
+            background-image: url("/images/green-line.jpg");
+            background-repeat: repeat-x;
+            background-size: cover;
+            margin-top: 15px;
+            margin-left: 150px;
+            width: 80%;
+            height: 1px;
+            display: block;
+        }
+        .ukras2{
+            background-image: url("/images/green-line.jpg");
+            background-repeat: repeat-x;
+            background-size: cover;
+            margin-top: 15px;
+            margin-left: 10px;
+            width: 30%;
+            height: 2px;
+            display: block;
+            margin-bottom: 25px;
+        }
+        h2{
+            font-family:Ebrima;
+            margin-left: 30px;
+            margin-bottom: -10px;
+        }
+        #lista{
+            margin-left: 50px;
+        }
+        #lista ul{
+            list-style-type: circle;
+        }
+        #lista ul li a{
+            text-decoration: none;
+            color:#53732f;
+            font-family: Ebrima;
+            padding: 2px;
+        }
+        #lista ul li a:hover{
+            text-decoration: underline;
+            background-color:lightpink;
+            padding: 2px;
+        }
+        #lista p{
+            color:#53732f;
+            font-family: Ebrima;
+        }
+        #lista p span{
+            color:deeppink;
+            text-decoration: underline;
+        }
+        footer{
+            background-color: #53732f;
+            text-align: center;
+            padding: 1px;
+            margin-top: 5px;
+            color:lightpink;
+        }
+    </style>
+</head>
+<body>
+<div class="edinstvena">
+    <div class="vnatresna"></div>
+</div>
+<nav>
+    <ul>
+        <li><a href="index.html">Почетна</a></li>
+        <li><a href="obrazovanie.html">Образование</a></li>
+        <li><a href="hobi.html">Хоби</a></li>
+        <li><a href="contact.html">Контакт</a></li>
+    </ul>
+</nav>
+<div class="ukras">
+
+</div>
+<h2>Контактирајте Ме!</h2>
+<div class="ukras2">
+
+</div>
+<div id="lista">
+    <p>Социјални медиуми</p>
+    <ul>
+        <li><a href="https://www.instagram.com/nakovska___?igsh=MTg1eHE5dXE2em5tZg==" target="_blank">Instagram</a></li>
+        <br/>
+        <li><a href="https://www.facebook.com/jovana.nakovska5" target="_blank">Facebook</a></li>
+    </ul>
+    <p>Mail: <span>jovana.nakovska@students.finki.ukim.mk</span> или испрати веднаш:</p>
+</div>
+<form action="mailto:jovana.nakovska@students.finki.ukim.mk" method="POST" enctype="text/plain">
+    <fieldset>
+        <legend>Send me a message</legend>
+
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </fieldset>
+</form>
+</body>
+<footer>
+    <p>&copy Created on 17.06.2025</p>
+</footer>
+</html>

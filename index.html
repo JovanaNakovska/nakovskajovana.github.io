@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашна работа</title>
+    <style>
+        nav{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background: #53732f;
+            height: 50px;
+        }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a{
+            padding: 8px;
+            margin: 8px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap:30px;
+            color: lightpink;
+        }
+        nav ul li:first-child{
+            margin-left: -20px;
+        }
+        nav ul li a:hover{
+            color: #658345;
+            background: lightpink;
+            padding: 8px;
+            text-decoration: underline;
+            border-radius: 5px;
+        }
+        .edinstvena{
+            padding-top:20px;
+            background-color: #658345;
+            background-image: url("logo-transparent1.png");
+
+            width: 100%;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        body{
+            background-color:bisque;
+            padding: 10px;
+        }
+        .ukras{
+            background-image: url("/images/green-line.jpg");
+            background-repeat: repeat-x;
+            background-size: cover;
+            margin-top: 15px;
+            margin-left: 150px;
+            width: 80%;
+            height: 1px;
+            display: block;
+        }
+        h4{
+            text-align: center;
+            font-family:Ebrima;
+            color: deeppink;
+        }
+        video{
+            display: inline-block;
+        }
+        #videa{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+        }
+        h5{
+            text-align: center;
+        }
+        #nepotreben p{
+            border:3px dotted lightpink;
+            padding: 9px;
+            text-align: center;
+        }
+        footer{
+            background-color: #53732f;
+            text-align: center;
+            padding: 1px;
+            margin-top: 5px;
+            color:lightpink;
+        }
+    </style>
+</head>
+<body>
+<div class="edinstvena">
+    <div class="vnatresna"></div>
+</div>
+<nav>
+    <ul>
+        <li><a href="index.html">Почетна</a></li>
+        <li><a href="obrazovanie.html">Образование</a></li>
+        <li><a href="hobi.html">Хоби</a></li>
+        <li><a href="contact.html">Контакт</a></li>
+    </ul>
+</nav>
+<div class="ukras">
+
+</div>
+<h4>Здраво и добредојдовте на мојата веб страна! </h4>
+<div id="nepotreben">
+<p>Јас сум активен студент на ФИНКИ, на студиската програма Софтверско инженерство и информациски системи (СИИС). Покрај студиите, активно работам на различни промотивни проекти, со особен акцент на соработката со АМСМ. Често креирам видеа од нивните настани и промоции, со цел да придонесам во нивниот маркетинг и визуелна промоција.
+    Имам голем интерес и страст кон уредувањето на корисничкиот интерфејс и дизајнирањето на веб страници, особено кога можам да ги спојам креативноста и функционалноста. Оваа страница е еден дел од моето патување и развој – место каде што можам да го споделам тоа што го работам и што ме инспирира.
+</p>
+</div>
+<h5>АМСМ Промо Видеa</h5>
+<div id="videa">
+    <video width="200" height="300" controls>
+        <source src="/video/video%20AMSM.mp4" type="video/mp4">
+        Вашиот прелистувач не поддржува HTML5 видео.
+    </video>
+    <video width="200" height="300" controls>
+        <source src="/video/video2.mp4" type="video/mp4">
+        Вашиот прелистувач не поддржува HTML5 видео.
+    </video>
+</div>
+</body>
+<footer>
+    <p>&copy Created on 17.06.2025</p>
+</footer>
+</html>

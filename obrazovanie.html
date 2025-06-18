@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашна работа</title>
+    <style>
+        nav{
+            width: 100%;
+                padding: 0;
+                margin: 0;
+                background: #53732f;
+                height: 50px;
+        }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a{
+            padding: 8px;
+            margin: 8px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap:30px;
+            color: lightpink;
+        }
+        nav ul li:first-child{
+            margin-left: -20px;
+        }
+        nav ul li a:hover{
+            color: #658345;
+            background: lightpink;
+            padding: 8px;
+            text-decoration: underline;
+            border-radius: 5px;
+        }
+        .edinstvena{
+            padding-top:20px;
+            background-color: #658345;
+            background-image: url("logo-transparent1.png");
+            width: 100%;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        body{
+            background-color:bisque;
+            padding: 10px;
+        }
+        #celosen{
+            padding-left: 50px;
+            padding-bottom: 15px;
+           margin-left: 40px;
+        }
+        .zaedno{
+            display: inline-block;
+            justify-content: space-evenly;
+            padding: 7px;
+            margin-left: 20px;
+        }
+        .tekst{
+            width: 500px;
+            height: 200px;
+            display: inline-block;
+            border-radius: 8px;
+            background-image: url("/images/beige-background.jpg");
+            background-repeat: no-repeat;
+            padding:10px;
+        }
+        h1{
+            font-family: "Bookman Old Style";
+            font-size: 21px;
+            padding-top: 20px;
+            padding-left: 30px;
+            text-transform: capitalize;
+        }
+        .tekst h2{
+            font-family: "Calibri";
+            font-size: 18px;
+            padding-top: 10px;
+        }
+        .tekst p{
+            font-size: 14px;
+        }
+        .slika{
+            display: inline-block;
+        }
+        .slika #prvaSlika{
+            background-image: url("/images/logo-FINKI.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 150px;
+            height: 150px;
+            margin-left: 20px;
+            margin-bottom:12px;
+            border-radius: 5px;
+            box-shadow: 4px -4px 8px 6px #658345;
+        }
+        .slika #vtoraSlika{
+            background-image: url("/images/logo-RJK.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 150px;
+            height: 150px;
+            margin-left: 20px;
+            margin-bottom: -35px;
+            border-radius: 5px;
+            box-shadow: 4px -4px 8px 6px #658345;
+        }
+        .slika #tretaSlika{
+            background-image: url("/images/student-logo.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 150px;
+            height: 150px;
+            margin-left: 20px;
+            margin-bottom: -40px;
+            border-radius: 5px;
+            box-shadow: 4px -4px 8px 6px #658345;
+        }
+        .ukras{
+            background-image: url("/images/green-line.jpg");
+            background-repeat: repeat-x;
+            background-size: cover;
+            margin-top: 15px;
+            margin-left: 150px;
+            width: 80%;
+            height: 1px;
+            display: block;
+        }
+        #ZAEDNO{
+            display: inline-block;
+            margin-top: 50px;
+        }
+        footer{
+            background-color: #53732f;
+            text-align: center;
+            padding: 1px;
+            margin-top: 5px;
+            color:lightpink;
+        }
+        </style>
+</head>
+<body>
+<div class="edinstvena">
+    <div class="vnatresna"></div>
+</div>
+<nav>
+<ul>
+    <li><a href="index.html">Почетна</a></li>
+    <li><a href="obrazovanie.html">Образование</a></li>
+    <li><a href="hobi.html">Хоби</a></li>
+    <li><a href="contact.html">Контакт</a></li>
+</ul>
+</nav>
+<div class="ukras">
+
+</div>
+<div id="celosen">
+    <h1>Нешто за мене</h1>
+    <div class="zaedno">
+        <div class="tekst">
+            <h2>Воведно</h2>
+            <p>Јас сум студентка на Факултетот за информатички науки и компјутерско инженерство (ФИНКИ) во Скопје – место каде што секојдневно го надградувам моето знаење, истражувам нови технологии и учествувам во проекти кои ме мотивираат да се развивам професионално. Студиите на ФИНКИ се вистински предизвик, но токму тие предизвици ме инспирираат да бидам подобра верзија од себе. Посебно ми се допаѓа практичниот пристап кон учењето, поддршката од професорите и можностите што се нудат за учество во различни академски и технолошки настани.</p>
+        </div>
+        <div class="slika">
+            <div id="prvaSlika"></div>
+        </div>
+    </div>
+    <div class="zaedno">
+        <div id="ZAEDNO">
+        <div class="tekst">
+            <h2>Средно образование</h2>
+            <p> Средното образование го завршив во СОУ „Раде Јовчевски – Корчагин“, каде што добив силна основа, особено во природните и математичките науки, што ми помогна многу при преминот кон техничките студии. Корчагин беше местото каде што се формираа моите интереси кон технологијата, логиката и креативното решавање на проблеми.</p>
+        </div>
+        <div class="slika">
+            <div id="vtoraSlika"></div>
+        </div>
+    </div>
+    </div>
+    <div class="zaedno">
+        <div class="tekst">
+            <h2>Студент</h2>
+            <p> Денес, како активна студентка на ФИНКИ, гордо можам да кажам дека го сакам тоа што го учам. Верувам дека ИТ светот нуди бескрајни можности и дека со упорност, љубопитност и труд може да се постигнат големи нешта. Оваа веб страна е дел од мојот личен и академски развој, и тука ќе споделувам дел од моите интереси, проекти и искуства од студиите.</p>
+        </div>
+        <div class="slika">
+            <div id="tretaSlika"></div>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <p>&copy Created on 17.06.2025</p>
+</footer>
+</html>
